@@ -1,0 +1,89 @@
+.profile-pic {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    display: block; /* Para centralizar a imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #f64532;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.button {
+    background-color: white;
+    color: #f64532;
+    border: 1px solid #f64532;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 5px 0; /* Margens superior e inferior */
+    width: 85%; /* Largura total para os botões */
+    max-width: 300px; /* Largura máxima para os botões */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.clients {
+    text-align: center;
+    margin: 40px 0; /* Espaço acima e abaixo da seção */
+}
+
+.client-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para acomodar em várias linhas se necessário */
+}
+
+.client-logos img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px; /* Espaçamento entre as imagens */
+}
+
+.call-to-action {
+    background-color: #f64532; /* Fundo vermelho */
+    color: #ffffff; /* Texto branco */
+    border: 2px solid #f64532; /* Borda vermelha */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0; /* Margens superior e inferior */
+    width: 85%; /* Largura total para os botões */
+    max-width: 300px; /* Largura máxima para o botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.carousel{
+padding: 10px 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 9px; /* Ajuste o tamanho da fonte conforme necessário */
+    padding: 20px;
+    background-color: #f1f1f1;
+}

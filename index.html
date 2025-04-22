@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkBio Agência Estratégia</title>
+    <link rel="stylesheet" href="/link-bio/scr/styles.css"> <!-- Link para o CSS -->
+    <link rel="icon" href="img/agencia-estrategia-foto-bio.ico" type="image/x-icon"> <!-- Adicione o favicon -->
+    <style>
+        .carousel {
+            position: relative;
+            max-width: 620px; /* Largura máxima do carrossel */
+            margin: auto;
+            overflow: hidden; /* Esconde o conteúdo que ultrapassa o contêiner */
+        }
+        .carousel-images {
+            display: flex;
+            transition: transform 1.5s ease; /* Transição suave entre os grupos de imagens */
+        }
+        .carousel-images img {
+            width: 31%; /* Ajusta para ocupar metade da largura do carrossel */
+            flex-shrink: 0; /* Impede que as imagens encolham */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/link-bio/scr/img/agencia-estrategia-foto-bio.png" alt="Foto de Perfil" class="profile-pic"> <!-- Ajuste o caminho -->
+        <h3>Agência Estratégia</h3>
+    </header>
+
+    <div class="container">
+        <h2>Sobre Nós:</h2>
+        <p>A Agência Estratégia é uma empresa especializada em marketing digital, focada em ajudar negócios a se destacarem no mercado online.</p>
+
+        <h2>Oferecemos:</h2>
+        <div class="button-container">
+            <a class="button" href="#trafego_pago">Tráfego Pago</a>
+            <a class="button" href="#gestão_de_redes_sociais">Gestão de Redes Sociais</a>
+            <a class="button" href="#desenvolvimento_de_sites">Desenvolvimento de Sites</a>
+            <a class="button" href="#criacao_de_conteudo">Criação de Conteúdo</a>
+        </div>
+
+        <div class="clients">
+            <h2>Alguns de nossos parceiros:</h2>
+            <div class="carousel">
+                <div class="carousel-images" id="carouselImages">
+                    <img src="/link-bio/scr/img/analise-laboratorio-logo.jpg" alt="Análise Laboratório">
+                    <img src="/link-bio/scr/img/asa-branca-mercado-logo.png" alt="Asa Branca Mercado">
+                    <img src="/link-bio/scr/img/auto-posto-veneza-logo.jpeg" alt="Posto Veneza">
+                    <img src="/link-bio/scr/img/casa-verde-logo.jpeg" alt="Casa Verde">
+                    <img src="/link-bio/scr/img/cicim-construcao-logo.png" alt="Cicim Construção">
+                    <img src="/link-bio/scr/img/drogaria-central-logo.jpg" alt="Drogaria Central">
+                    <img src="/link-bio/scr/img/aabb-logo.jpeg" alt="AABB Santa Luzia">
+                    <img src="/link-bio/scr/img/master-loteamentos-logo.jpeg" alt="Master Loteamentos">
+                    <img src="/link-bio/scr/img/pousada-asa-branca-logo.png" alt="Pousada Asa Branca">
+                </div>
+            </div>
+        </div>
+
+        <script src="/link-bio/scr/agencia_estrategia.js"></script> <!-- Link para o arquivo JavaScript -->
+
+
+        <a class="call-to-action" href="https://wa.link/z7ued8" target="_blank">Clique e Solicite um Orçamento</a>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> - Desenvolvido pela Agência Estratégia - Marketing Digital e Redes Sociais. Todos os Direitos Reservados.</p>
+        <script>
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+        </script>    
+    </footer>
+
+</body>
+</html>
